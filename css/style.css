@@ -1,0 +1,730 @@
+/************************
+  Frolyonok Andrey
+            2017 Moscow
+************************/
+body {
+  /*background: #e6ddee;*/
+  background: rgba(230, 221, 238, 0.4);
+  font-family: 'Open Sans';
+}
+.maxi img {
+  max-width: 100%;
+}
+.inli {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.border-r2 {
+  border-radius: 2px;
+}
+.border-r3 {
+  border-radius: 3px;
+}
+
+.fixed {
+  position: fixed;
+}
+.inlineblock,
+.inlineb {
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+}
+.pointer {
+  cursor: pointer;
+}
+.footer {
+  margin-top: 30px;
+  background: #f5f1f8;
+}
+.logotype {
+  width: 200px;
+  min-width: 200px;
+
+  min-height: 77px;
+}
+
+.myh1 {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.top-logo-coll {
+  /*padding: 40px 15px;*/
+  padding-top: 30px;
+  padding-left: 27px;
+  padding-bottom: 5px;
+
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+  vertical-align: top;
+}
+
+.pad-top-1 {
+  padding-top: 10px;
+}
+.pad-top-2 {
+  padding-top: 20px;
+}
+.pad-top-3 {
+  padding-top: 30px;
+}
+.pad-top-4 {
+  padding-top: 40px;
+}
+.pad-top-5 {
+  padding-top: 50px;
+}
+.pad-top-6 {
+  padding-top: 60px;
+}
+.pad-top-7 {
+  padding-top: 70px;
+}
+.pad-top-8 {
+  padding-top: 80px;
+}
+.pad-top-9 {
+  padding-top: 90px;
+}
+.pad-top-10 {
+  padding-top: 100px;
+}
+
+.border-dash-bottom {
+  border-bottom: 1px dotted grey;
+}
+.br {
+  min-height: 12px;
+}
+.cities-name {
+
+}
+
+.f-chat {
+  bottom: 45px;
+  right: 45px;
+}
+
+.btn-default:hover {
+  color: #2d2d2d!important;
+}
+
+.f-chat-btn {
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,0.4);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 40% auto !important; background-image: url(/img/chat_dark.png);
+}
+
+.slider-indexpage {
+  /*margin-top: 30px;*/
+}
+
+.white-bg-round {
+  background: white;
+  border-radius: 3px;
+  padding: 15px 10px;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  cursor: default;
+  font-size: 18px;
+  padding: 0px 10px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.cost_cities {
+  padding: 7px 22px;
+}
+
+.cost_weight {
+  margin-top: 8px;
+  padding: 7px 22px;
+  padding-bottom: 2px;
+}
+
+.cost_transfer {
+  margin: 0 10px;
+}
+
+.cost_vol {
+  padding: 7px 22px;
+}
+
+.cost_city_in {
+  /*width: 130px;*/
+}
+
+.cost_city_to {
+  /*width: 130px;*/
+}
+
+.cost_city_to a,
+.cost_city_in a {
+  color: #333;
+  border-bottom: 1px dashed #333;
+}
+
+.cost_city_to a:hover,
+.cost_city_in a:hover,
+.cost_city_to a:active,
+.cost_city_in a:active,
+.cost_city_in a:focus,
+.cost_city_to a:focus {
+  text-decoration: none;
+}
+
+.h3-cost {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.cost_helper1 {
+  opacity: 0;
+}
+
+.cost_kg {
+  /*margin-left: 10px;*/
+}
+
+.form-cost:active,
+.form-cost:focus,
+.form-cost {
+  padding-left: 3px;
+  outline: none;
+  width: 140px;
+  border-radius: 3px;
+      height: 33px;
+      padding-left: 11px;
+  border: 1px solid #ccc;
+  /*background: #F6F7F2;*/
+}
+
+.cost_calculate_btn {
+  margin-top: 15px;
+  padding-left: 114px;
+}
+
+.flexslider {
+  min-height: 471px;
+
+}
+
+.shadow {
+  box-shadow: 0 2px 15px -5px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0 2px 15px -5px rgba(0,0,0,.4);
+}
+
+.city-name-header {
+  margin-top: 16px; font-weight: 600; margin-bottom: 0px;
+  font-size: 21px;
+}
+
+.header-phone:hover {
+  text-decoration: none;
+}
+
+/* SLIDER NAV */
+.custom-navigationX {
+    margin-top: -33px;
+    width: 100%;
+    margin-left: 11px;
+    padding-bottom: 20px;
+    min-height: 50px;
+}
+
+.truck-bg {
+  background-image: url('/img/4563435333-17_3.jpg');
+  /* background-image: url('/img/img01.jpg'); */
+  background-size: cover;
+}
+.avia-bg {
+  background-image: url('/img/3939354.jpg');
+  background-size: cover;
+}
+
+.footer-container {
+  color: #fff;
+  border-radius: 3px;
+  min-height: 200px;
+  background: #f5f1f8;
+  /*background-image: url('/img/footer_bg1.png');*/
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+.worldmap-small {
+  background-image: url('/img/worldmap-bg.gif');
+  background-size: cover;
+}
+
+.cost_is_vol {
+  font-weight: 600;
+}
+
+.ishovergreybg:hover {
+  background: #ebebeb;
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.footer-ul {
+  margin-top: 10px;
+  padding-left: 0;
+  margin-left: 25px;
+  list-style: none;
+}
+.footer-ul li a {
+  text-decoration: none;
+}
+.pad-left-1 {
+  padding-left: 10px;
+
+}
+.pad-left-2 {
+  padding-left: 20px;
+}
+
+.color-white {
+color: white;
+}
+
+.btn-default:hover {
+  background: #ddd;
+}
+
+.delivery-spsb,
+.delivery-spsb li {
+  list-style: none;
+}
+
+.delivery-spsb {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.delivery-spsb li {
+    border: 1px solid #d2d2d2;
+    cursor: pointer;
+    margin-right: -4px;
+    border-right: 0;
+    color: #424e74;
+    display: inline-block;
+    padding: 10px 35px;
+    /*font-weight: bold;*/
+    background: #ebebeb;
+    position: relative;
+    font-weight: bold;
+    /*min-width: 130px;*/
+}
+
+.delivery-spsb li._first {
+  border-right: 0;
+  border-radius: 2px 0 0 2px;
+
+}
+
+.delivery-spsb li._last {
+  border-right: 1px solid #d2d2d2;
+
+  border-radius: 0 2px 2px 0;
+}
+.delivery-type {
+
+}
+.delivery-spsb li.active{
+  border: 1px solid #64739e;
+
+  background: #424e74;
+  color: white;
+
+}
+
+.delivery-spsb li:hover{
+  background: #f1f1f1;
+  transition: .1s;
+}
+.delivery-spsb li.active:hover{
+  border: 1px solid #64739e;
+  background: #424e74;
+}
+.delivery-spsb li {
+  transition: .1s;
+  padding-right: 35px;
+}
+.gal_ {
+  opacity: 0;
+}
+li.active .gal_ {
+  opacity: 1;
+}
+
+#contact-bg {
+  background: #ffffff url('/images/contact-page-bg.png') top right no-repeat;
+  background-size: 66%;
+  margin-bottom: 20px;
+}
+
+#map {
+  /*background: #ebebeb;*/
+  height: 377px;
+  width: 100%;
+  /*border-radius: 2px;*/
+  overflow: hidden;
+  /*webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);*/
+  /*position: absolute;*/
+  border-top: 2px solid #ebebeb;
+  padding-top: 0px;
+  /*bottom: 50px;*/
+  /*left: 50px;*/
+  /*left: 0px;
+  bottom: 20px;*/
+}
+
+.toll-form {
+  padding: 6px 12px;
+  width: 377px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+.min-300 {
+  min-width: 300px;
+}
+.min-250 {
+  min-width: 220px;
+}
+
+.min-250 span {
+  color: rgba(255, 0, 0, 0.66);
+}
+
+.tochnostposilki .redspan {
+  color: rgba(255, 0, 0, 0.66);
+  position: absolute;
+  top: -4px;
+  right: 63px;
+  font-size: 10px;
+
+}
+
+.ot-do {
+  padding-left: 250px;
+}
+
+.ot-do ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.ot-do ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#calcprice {
+  min-width: 186px;
+  text-align: center;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px 35px;
+  /*font-weight: bold;*/
+  background: #424e74;
+  position: relative;
+  font-weight: bold;
+  border: 1px solid #64739e;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 249px;
+}
+.change-options-more h5 {
+  margin: 0px;
+}
+.change-options-more {
+  /*border-top: 1px solid #ccc;*/
+  /*border-bottom: 1px solid #ccc;*/
+  cursor: pointer;
+  /*font-weight: bold;*/
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  background: #f9f9f9;
+  color: #435076;
+  margin-left: -10px;
+  margin-right: -10px;
+  transition: .111s;
+}
+.change-options-more:hover {
+  transition: .111s;
+  background: #f1f1f1;
+}
+.change-options-more.active {
+  background: #f1f1f1;
+}
+
+#_finger1 {
+  transition: 0.111s;
+}
+.change-options-more img {
+  opacity: .77;
+}
+
+.form-delivery-toper {padding-top: 7px;}
+
+#span-radio-ot-dver,
+#span-radio-do-dver {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+  background: url("/images/icons/radioo-blue.png");
+  background-position: -26px 0px;
+  cursor: pointer;
+  /*background-size: 44px;*/
+}
+
+#span-radio-ot-pnkt,
+#span-radio-do-pnkt {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+  background-position: -4px 0px;
+  background: url("/images/icons/radioo-blue.png");
+}
+
+.small-blue {
+  cursor: pointer;
+  padding-top: 2px;
+  color: #424e74; font-size: 13px;
+}
+
+.ves-posilki-div {
+  margin-top: 10px;
+}
+
+
+.delivery-form {
+  position: relative;
+}
+
+.light-red-color {
+  color: rgba(255, 0, 0, 0.66);
+}
+
+.sp-login-input {
+  padding: 7px 16px;
+}
+
+a.linker-blue {
+  margin: 0px!important;
+  padding-bottom: 0px!important;
+}
+
+a.linker-blue:hover {
+  color: #284d5d!important;
+  cursor: pointer;
+}
+
+.default-style-ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.tochnostposilki {
+  display: none;
+  background: #f9f9f9;
+  border: 1px solid #f2f2f2;
+  padding-bottom: 15px;
+}
+
+#itDveri,
+#otPuncta {
+  cursor: pointer;
+}
+
+#ves-is {
+  width: 50px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#dlinna-is {
+  width: 50px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#shirina-is {
+  width: 50px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#visota-is {
+  width: 50px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#kolvo-is {
+  width: 50px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#addNewPosilka,
+#delAllPosilki {
+  min-width: 200px;
+  text-align: center;
+  padding: 6px 15px;
+  margin-left: -12px;
+  background: #424e74;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#delAllPosilki {
+  background: #eee;
+  margin-right: 7px;
+  color: grey;
+}
+.tochnoknipki {
+  padding: 7px 0px;
+  margin-bottom: 7px;
+}
+
+#ob-vol,
+#ob-ves {
+  transition: .111s;
+}
+
+#pluser-posilok {
+  background: #424e74;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 14px;
+  border-radius: 2px;
+  min-height: 25px;
+}
+
+.color-blue:hover {
+  text-decoration: none;
+}

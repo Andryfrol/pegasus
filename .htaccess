@@ -1,0 +1,25 @@
+<IfModule mod_charset.c>
+  CharsetDisable On
+</IfModule>
+
+
+php_value default_charset utf-8
+
+DirectoryIndex index.php
+
+
+
+RemoveHandler .html
+AddType application/x-httpd-php .php .htm .html .phtml .av
+
+RewriteEngine on
+RewriteRule ^вакансии/?$ /index.php?page=vacancy
+RewriteRule ^для-клиентов/?$ /index.php?page=forclients
+RewriteRule ^о-компании/?$ /index.php?page=company
+RewriteRule ^онлайн-сервисы/?$ /index.php?page=onlineservice
+RewriteRule ^заявка-калькулятор/?$ /index.php?page=calculate
+RewriteRule ^личный-кабинет/?$ /index.php?page=cabinet
+RewriteRule ^услуги/?$ /index.php?page=service
+RewriteRule ^отследить-груз/?$ /index.php?page=tracking
+RewriteRule ^документы-на-отправку-груза/?$ /index.php?page=doc1
+RewriteRule ^порядок-приемки-груза/?$ /index.php?page=doc2
